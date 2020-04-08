@@ -7,18 +7,9 @@
   ~ and the Eclipse Distribution License is available at
   ~ http://www.eclipse.org/org/documents/edl-v10.php.
   -->
-[![][travis img]][travis]
-[![][maven img]][maven]
-[![][release img]][release]
+[![][jenkins img]][jenkins]
 [![][license-epl img]][license-epl]
 [![][license-edl img]][license-edl]
-
-[![][actions unit-tests img]][actions unit-tests]
-[![][actions acceptance-tests img]][actions acceptance-tests]
-[![][actions performance-tests img]][actions performance-tests]
-[![][actions checkstyle img]][actions checkstyle]
-[![][actions findbugs img]][actions findbugs]
-[![][actions javadoc img]][actions javadoc]
 
 <a href="https://www.eclipse.org/collections/"><img src="https://github.com/eclipse/eclipse-collections/blob/master/artwork/eclipse-collections-logo.png" height="50%" width="50%"></a>
 
@@ -187,32 +178,8 @@ We welcome contributions! We accept contributions via pull requests here in GitH
 * Mailing lists: https://dev.eclipse.org/mailman/listinfo/collections-dev
 * Forum: https://www.eclipse.org/forums/index.php?t=thread&frm_id=329
 
-[actions acceptance-tests]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22Acceptance+Tests%22
-[actions acceptance-tests img]:https://github.com/eclipse/eclipse-collections/workflows/Acceptance%20Tests/badge.svg?branch=master
-
-[actions unit-tests]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22Unit+tests%22
-[actions unit-tests img]:https://github.com/eclipse/eclipse-collections/workflows/Unit%20tests/badge.svg?branch=master
-
-[actions performance-tests]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22Performance+Tests%22
-[actions performance-tests img]:https://github.com/eclipse/eclipse-collections/workflows/Performance%20Tests/badge.svg?branch=master
-
-[actions checkstyle]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22Checkstyle%22
-[actions checkstyle img]:https://github.com/eclipse/eclipse-collections/workflows/Checkstyle/badge.svg?branch=master
-
-[actions findbugs]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22Findbugs%22
-[actions findbugs img]:https://github.com/eclipse/eclipse-collections/workflows/Findbugs/badge.svg?branch=master
-
-[actions javadoc]:https://github.com/eclipse/eclipse-collections/actions?query=workflow%3A%22JavaDoc%22
-[actions javadoc img]:https://github.com/eclipse/eclipse-collections/workflows/JavaDoc/badge.svg?branch=master
-
-[travis]:https://travis-ci.org/eclipse/eclipse-collections
-[travis img]:https://travis-ci.org/eclipse/eclipse-collections.svg?branch=master
-
-[maven]:http://search.maven.org/#search|gav|1|g:"org.eclipse.collections"%20AND%20a:"eclipse-collections"
-[maven img]:https://maven-badges.herokuapp.com/maven-central/org.eclipse.collections/eclipse-collections/badge.svg
-
-[release]:https://github.com/eclipse/eclipse-collections/releases
-[release img]:https://img.shields.io/github/release/eclipse/eclipse-collections.svg
+[jenkins]:https://build.carminestar.com/job/eclipse-collections/
+[jenkins img]:https://build.carminestar.com/buildStatus/icon?job=eclipse-collections
 
 [license-epl]:LICENSE-EPL-1.0.txt
 [license-epl img]:https://img.shields.io/badge/License-EPL-blue.svg
@@ -220,6 +187,4 @@ We welcome contributions! We accept contributions via pull requests here in GitH
 [license-edl]:LICENSE-EDL-1.0.txt
 [license-edl img]:https://img.shields.io/badge/License-EDL-blue.svg
 
-[sonarqube]:https://sonarqube.com/dashboard?id=org.eclipse.collections%3Aeclipse-collections-parent
-[sonarqube img]:https://sonarqube.com/api/badges/gate?key=org.eclipse.collections:eclipse-collections-parent
 
